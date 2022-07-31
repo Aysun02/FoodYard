@@ -377,7 +377,7 @@
     z-index: -1;
 }
 
- @media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
     .chef-main-text {
         font-size: 30px;
         line-height: 40px;
@@ -388,7 +388,7 @@
     }
 }
     
-     @media screen and (max-width: 920px){
+     @media screen and (max-width: 950px){
         .chef-main-text {
             width: 300px;
             font-size: 25px;
@@ -401,7 +401,7 @@
         }
     } 
 
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 650px) {
         .chef-main-text {
             width: 300px;
             font-size: 25px;
@@ -412,13 +412,16 @@
         }
     }
 
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 950px){
         .chef-block {
-            margin-right: 200px;
+            margin-bottom: 500px;
+            margin-right: 300px;
+            padding-right: 40px;
+
         }
     }
 
-    @media screen and (max-width:1100px) {
+    @media screen and (max-width:1300px) {
         .chef-block-content::before {
             content: "“";
     font-size: 800px;
@@ -430,7 +433,7 @@
     z-index: -2;
         }
     }
-    @media screen and (max-width:1100px) {
+    @media screen and (max-width:1300px) {
         .chef-block-content {
             width: 900px;
     margin: 0 auto;
@@ -438,7 +441,7 @@
         }
     }
 
-    @media screen and (max-width:920px) {
+    @media screen and (max-width:950px) {
         .chef-block-content::before {
             content: "“";
     font-size: 800px;
@@ -450,7 +453,7 @@
     z-index: -2;
         }
     }
-    @media screen and (max-width:920px) {
+    @media screen and (max-width:950px) {
         .chef-block-content {
             width: 700px;
     position: absolute;
@@ -459,7 +462,7 @@
     } 
 
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 650px) {
         .chef-img-box {
             position: absolute;
             right: 625px;
@@ -467,7 +470,7 @@
         }
     }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 650px) {
         .camella{
             position: absolute;
             right: 450px;
@@ -483,7 +486,7 @@
         }
     }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 650px) {
         .chef-block-content::before {
             content: "“";
     font-size: 800px;
@@ -495,12 +498,14 @@
     z-index: -2;
         }
     }
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 650px) {
         .chef-block-content {
             width: 700px;
     position: absolute;
     margin: 0px 50px;
+    margin-left: 120px;
         }
+    
     } 
 
 
@@ -528,25 +533,13 @@
 }
 
 
-@media screen  and (max-width: 900px) {
+
+@media screen  and (max-width: 950px) {
     .nums-box {
-        position: absolute;
-        border-radius: 50px;
-        flex-wrap: wrap;
-        gap: 50px;
-        width: calc(100%-50px);
-        display: block;
-        justify-content: baseline;
-        margin-right: 0;
-        margin-left: 0;
-        line-height: 100px;
+        width: 100%;
     }
     .nums-item p {
-        position: absolute;
-        border-radius: 50px;
-        flex-wrap: wrap;
-        display: block;
-        justify-content: baseline;
+        font-size: 14px;
        
     }
     .p1 {
@@ -565,6 +558,35 @@
         bottom: -20px;
         right: 785px;
     }
+}
+@media screen  and (max-width: 830px) {
+    .nums-box {
+        width: 50%;
+        margin-right: 200px;
+        gap: 10px;
+        margin-left: 200px;
+        
+    }
+}
+    .nums-item >h3 {
+        font-size: 16px;
+       
+       
+    }
+    @media screen  and (max-width: 650px) {
+        .nums-box {
+            width: 50%;
+            margin-right: 200px;
+            gap: 10px;
+            margin-left: 100px;
+            
+        }
+        .nums-item >h3 {
+            font-size: 16px;
+           
+           
+        }
+     
 }
 
 .app {
@@ -588,46 +610,80 @@
 
 
 
-@media screen and (max-width: 850px) {
-    .app-box-content > .HH1 {
-        font-size: 50px;
-        line-height: 70px;
-    }
-    .app-box-image {
-        width: 480px;
-        display: none;
-    }
-    .app-box-image img {
-        width: 100%;
-    }
-    
-}
-
-@media  screen and (max-width: 730px) {
+@media  screen and (max-width: 750px) {
     .app {
         padding: 0;
         justify-content: space-around;
+        margin-left: 140px;
+       
     }
     .app-box-image {
-        width: 480px;
-        display: none;
+        width: 480px; 
+         display: none; 
     }
     .app-box-image img {
         width: 100%;
     }
 .app-box {
     width: 350px;
+   
 }
 
 .app-box > h1 {
     font-size: 20px;
     line-height: 30px;
 }
-.app-box-content > .HH1  {
+.app-box-content   {
     font-size: 30px;
     line-height: 40px;
+    
 }
     
+}
+@media screen and (max-width: 860px) {
+    .app-box-content  { 
+       font-size: 50px;
+       line-height: 70px;
+   }
+   .app-box-image {
+       width:100%;
+       /* display: none; */
+   }
+   .app-box-image img {
+       width: 100%;
+   }
+   
+}
+
+@media  screen and (max-width: 750px) {
+   .app {
+       padding: 0;
+       justify-content: space-around;
+       margin-left: 140px;
+      
+   }
+   .app-box-image {
+       width: 480px; 
+        display: none; 
+   }
+   .app-box-image img {
+       width: 100%;
+   }
+.app-box {
+   width: 350px;
+  
+}
+
+.app-box > h1 {
+   font-size: 20px;
+   line-height: 30px;
+}
+.app-box-content   {
+   font-size: 30px;
+   line-height: 40px;
+   
+}
+   
 }
 
 .footer {
@@ -679,28 +735,31 @@
 @media screen and (max-width: 1150px) {
     .footer {
         flex-direction: column;
-        margin-top: 10px;
+      
+        margin-left: 120px;
     }
 }
 
 @media screen and (max-width: 1150px) {
     .footer {
         align-items: flex-start;
+        
     }
 }
 
 @media screen and (max-width: 1150px) {
-    .logo{
+    .logo2{
         justify-content: space-between;
         gap: auto;
         width: 100vw;
-        padding: 0 20px;
+         padding-top: 0;
     }
 }
 
 @media screen and (max-width: 1150px) {
-    .logo {
-        display: none;
+    .logo2 {
+      font-size: 26px;
+      margin-bottom: 20px;
     }
 }
 
@@ -837,12 +896,9 @@ border-bottom:3px solid rgb(192, 32, 59);
         50%,
         70% {
           transform: rotateZ(-3deg);
-        }
-      
+         }
         40%,
         60% {
           transform: rotateZ(3deg);
         }
-      } 
-    
-    
+      }
